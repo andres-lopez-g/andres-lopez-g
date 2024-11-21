@@ -1,9 +1,9 @@
 ## Hi there 👋
-
+my name is Andrés Julián López González, i'm currently studing informatic engineering at Jaime Isaza cadavid Polytechnic in Colombia, and a fun fact about me is that i love everything with a motor and cats
+i'm currently learning HTML,Python,Javascript and SQL, any tools/ tips are greatly appreciated, it's nice to meet new people!
 <!--
 **andres-lopez-g/andres-lopez-g** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
