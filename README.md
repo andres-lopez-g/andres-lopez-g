@@ -1,6 +1,6 @@
 <div align="center">
   
-# 👋 Hi, I'm Andrés Julián López González
+# Hi, I'm Andrés Julián López González
 
 ### 🎓 Informatic Engineering Student | 🚀 Passionate Developer | 🏍️ Motor Enthusiast | 🐱 Cat Lover
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🙋‍♂️ About Me
+##  About Me
 
 I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polytechnic** in Colombia. I'm passionate about technology and always eager to learn new things and connect with fellow developers!
 
@@ -58,7 +58,7 @@ I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polyt
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -87,7 +87,7 @@ I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polyt
 
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
 I'm always interested in meeting new people and learning from the community. If you have any tips, tools, or just want to chat about technology, feel free to reach out!
 
