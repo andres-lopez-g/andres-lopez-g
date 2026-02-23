@@ -75,18 +75,6 @@ I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polyt
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![Andrés's GitHub stats](https://github-readme-stats.vercel.app/api?username=andres-lopez-g&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andres-lopez-g&layout=compact&theme=radical)
-
-</div>
-
----
-
 ## Connect With Me
 
 I'm always interested in meeting new people and learning from the community. If you have any tips, tools, or just want to chat about technology, feel free to reach out!
