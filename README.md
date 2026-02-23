@@ -2,20 +2,20 @@
   
 # Hi, I'm Andrés Julián López González
 
-### 🎓 Informatic Engineering Student | 🚀 Passionate Developer | 🏍️ Motor Enthusiast | 🐱 Cat Lover
+[![Typing SVG - Dynamic animation showcasing Andrés's roles and interests](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Informatic+Engineering+Student+%F0%9F%8E%93;Full-Stack+Developer+%F0%9F%9A%80;Motor+Enthusiast+%F0%9F%8F%8D%EF%B8%8F;Cat+Lover+%F0%9F%90%B1)](https://github.com/andres-lopez-g "Visit Andrés's GitHub profile")
 
-[![Profile Views](https://komarev.com/ghpvc/?username=andres-lopez-g&color=brightgreen)](https://github.com/andres-lopez-g)
+[![Profile Views](https://komarev.com/ghpvc/?username=andres-lopez-g&color=brightgreen "Total profile views badge")](https://github.com/andres-lopez-g)
 
 </div>
 
 ---
 
-##  About Me
+## About Me
 
 I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polytechnic** in Colombia. I'm passionate about technology and always eager to learn new things and connect with fellow developers!
 
-- 🔭 Working on improving my coding skills and building exciting projects
-- 🌱 Currently learning web development and software engineering best practices
+- 🔭 Building full-stack projects with Python, TypeScript, and modern web frameworks
+- 🌱 Deepening my knowledge in cloud infrastructure, system design and machine learning
 - 💡 Love everything with a motor and cats 🏍️🐱
 - 🤝 Open to collaboration and networking opportunities
 - 💬 Feel free to reach out - I'm always happy to meet new people!
@@ -58,7 +58,7 @@ I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polyt
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -87,8 +87,8 @@ I'm always interested in meeting new people and learning from the community. If 
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andres-lopez-g)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573007692405)
+[![GitHub profile badge for andres-lopez-g](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andres-lopez-g "Visit Andrés's GitHub profile")
+[![WhatsApp contact badge for Andrés](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573007692405 "Chat with Andrés on WhatsApp")
 
 </div>
 
