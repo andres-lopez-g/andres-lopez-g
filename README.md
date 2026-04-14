@@ -1,103 +1,97 @@
 <div align="center">
-  
-# Hi, I'm Andrés Julián López González
 
-### 🎓 Informatic Engineering Student | 🚀 Passionate Developer | 🏍️ Motor Enthusiast | 🐱 Cat Lover
+# ¡Hola! Soy Mateo Posada 👋
 
-[![Profile Views](https://komarev.com/ghpvc/?username=andres-lopez-g&color=brightgreen)](https://github.com/andres-lopez-g)
+### 💻 Estudiante y desarrollador en formación | 🚀 Enfocado en construir proyectos reales
+
+[![Visitas al perfil](https://komarev.com/ghpvc/?username=mateoPosada82231&label=Visitas%20al%20perfil&color=0e75b6&style=for-the-badge)](https://github.com/mateoPosada82231)
+[![Seguidores](https://img.shields.io/github/followers/mateoPosada82231?label=Seguidores&style=for-the-badge)](https://github.com/mateoPosada82231?tab=followers)
+[![Portafolio](https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mateoposada82231.github.io/mi-portafolio/)
 
 </div>
 
 ---
 
-##  About Me
+## 🚀 Sobre mí
 
-I'm currently studying **Informatic Engineering** at **Jaime Isaza Cadavid Polytechnic** in Colombia. I'm passionate about technology and always eager to learn new things and connect with fellow developers!
-
-- 🔭 Working on improving my coding skills and building exciting projects
-- 🌱 Currently learning web development and software engineering best practices
-- 💡 Love everything with a motor and cats 🏍️🐱
-- 🤝 Open to collaboration and networking opportunities
-- 💬 Feel free to reach out - I'm always happy to meet new people!
+- 💻 Me gusta construir proyectos prácticos y aprender nuevas tecnologías.
+- 🌱 Actualmente fortaleciendo habilidades en **TypeScript, Python y Java**.
+- 🧩 Interesado en desarrollo de software, estructuras de datos y sistemas.
+- 🤝 Abierto a colaborar y seguir creciendo como desarrollador.
 
 ---
 
-## 🚀 Recent Projects
+## 🧠 Proyectos destacados
 
-### [CarScan](https://github.com/andres-lopez-g/CarScan) 🚗
-**Vehicle Listing Aggregator for Colombia** - A production-ready web application that aggregates vehicle listings from multiple Colombian marketplaces.
+### [Ahorcado-RaspberryPi-Qemu](https://github.com/mateoPosada82231/Ahorcado-ResberryPi-Qemu) 🎮
+**Juego del ahorcado en assembler ARM** para Raspberry Pi emulada con QEMU.
 
-**Tech Stack:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+**Stack:**
+![Assembly](https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=gnuassembler&logoColor=white)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### [BookHub](https://github.com/mateoPosada82231/BookHub) 📚
+Aplicación construida en TypeScript para gestión y exploración de libros.
+
+**Stack:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### [AsisT](https://github.com/andres-lopez-g/AsisT) 📊
-**Smart Personal Assistant** - A minimalist personal management platform for organizing finances and productivity.
-
-**Tech Stack:**
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### [ML Face Censor](https://github.com/andres-lopez-g/ml-face-censor) 🎭
-**Machine Learning Face Detection** - Python-based ML tool for automatically detecting and censoring faces in images.
-
-**Tech Stack:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
----
-
-## Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-### Currently Learning
-- 📚 Web Development (HTML, CSS, JavaScript)
-- 🐍 Python Programming
-- 🗄️ Database Management (SQL)
-- 🌐 Full-Stack Development
+### [compresor-huffman](https://github.com/mateoPosada82231/compresor-huffman) 🗜️
+Implementación del algoritmo de compresión Huffman en C++.
+
+**Stack:**
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Algoritmos](https://img.shields.io/badge/Algoritmos-1F6FEB?style=for-the-badge)
+
+### [poliglota-postgres-neo](https://github.com/mateoPosada82231/poliglota-postgres-neo) 🗄️
+Proyecto en Python con enfoque en persistencia y manejo de datos.
+
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
-## Connect With Me
+## 🛠️ Stack tecnológico
 
-I'm always interested in meeting new people and learning from the community. If you have any tips, tools, or just want to chat about technology, feel free to reach out!
+### Tecnologías principales
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andres-lopez-g)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573007692405)
-
+  <img src="https://streak-stats.demolab.com?user=mateoPosada82231&theme=tokyonight&hide_border=true" alt="Racha de contribuciones de Mateo Posada" />
 </div>
 
 ---
 
 <div align="center">
-  
-### 💭 _"The only way to do great work is to love what you do."_ - Steve Jobs
+  <img src="https://raw.githubusercontent.com/mateoPosada82231/mateoPosada82231/output/github-contribution-grid-snake-dark.svg" alt="Snake animado de contribuciones" />
+</div>
 
-⭐️ From [andres-lopez-g](https://github.com/andres-lopez-g)
+---
+
+## 📫 Conecta conmigo
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mateoPosada82231)
+[![Portafolio](https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mateoposada82231.github.io/mi-portafolio/)
 
 </div>
