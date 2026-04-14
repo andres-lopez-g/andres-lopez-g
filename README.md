@@ -76,13 +76,13 @@ Proyecto en Python con enfoque en persistencia y manejo de datos.
 ---
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=mateoPosada82231&theme=tokyonight&hide_border=true" alt="Racha de contribuciones en GitHub" />
+  <img src="https://streak-stats.demolab.com?user=mateoPosada82231&theme=tokyonight&hide_border=true" alt="Racha de contribuciones de mateoPosada82231 en GitHub" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mateoPosada82231/mateoPosada82231/output/github-contribution-grid-snake-dark.svg" alt="Animación de contribuciones en GitHub" />
+  <img src="https://raw.githubusercontent.com/mateoPosada82231/mateoPosada82231/output/github-contribution-grid-snake-dark.svg" alt="Animación de contribuciones de mateoPosada82231 en GitHub" />
 </div>
 
 ---
