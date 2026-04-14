@@ -82,7 +82,7 @@ Proyecto en Python con enfoque en persistencia y manejo de datos.
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mateoPosada82231/mateoPosada82231/output/github-contribution-grid-snake-dark.svg" alt="Animación de contribuciones de mateoPosada82231 en GitHub" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mateoPosada82231&theme=tokyo-night&hide_border=true&area=true" alt="Gráfica de actividad de contribuciones de mateoPosada82231 en GitHub" />
 </div>
 
 ---
