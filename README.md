@@ -23,7 +23,7 @@
 
 ## 🧠 Proyectos destacados
 
-### [Ahorcado-RaspberryPi-Qemu](https://github.com/mateoPosada82231/Ahorcado-ResberryPi-Qemu) 🎮
+### [Ahorcado-RaspberryPi-Qemu](https://github.com/mateoPosada82231/Ahorcado-RaspberryPi-Qemu) 🎮
 **Juego del ahorcado en assembler ARM** para Raspberry Pi emulada con QEMU.
 
 **Stack:**
