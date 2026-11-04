@@ -1,151 +1,73 @@
 <div align="center">
 
-```
- █████╗ ███╗   ██╗██████╗ ██████╗ ███████╗███████╗
-██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔════╝
-███████║██╔██╗ ██║██║  ██║██████╔╝█████╗  ███████╗
-██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══╝  ╚════██║
-██║  ██║██║ ╚████║██████╔╝██║  ██║███████╗███████║
-╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andres-lopez-g/andres-lopez-g/main/assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andres-lopez-g/andres-lopez-g/main/assets/banner-light.png">
+  <img src="https://raw.githubusercontent.com/andres-lopez-g/andres-lopez-g/main/assets/banner-light.png" alt="Andrés Julián López González — Ingeniería Informática, Full-Stack, Cloud e IoT" width="100%">
+</picture>
 
-**`hardware → algoritmos → software → cloud → ML`**
+![Disponible para prácticas y proyectos](https://img.shields.io/badge/Disponible-practicas%20y%20proyectos-2f6b4f?style=flat-square)
+![Rionegro, Antioquia, Colombia](https://img.shields.io/badge/Rionegro-Antioquia%2C%20Colombia-1f3a5f?style=flat-square&logo=googlemaps&logoColor=white)
+![English B2+](https://img.shields.io/badge/English-B2%2B-1f3a5f?style=flat-square)
 
-*Construyo en todas las capas. Del transistor al despliegue, del sensor a la pantalla.*
-
-[![Visitas](https://komarev.com/ghpvc/?username=andres-lopez-g&label=visitas&color=blueviolet&style=flat-square)](https://github.com/andres-lopez-g)
-[![Seguidores](https://img.shields.io/github/followers/andres-lopez-g?label=seguidores&style=flat-square&color=blueviolet)](https://github.com/andres-lopez-g?tab=followers)
-[![Sitio](https://img.shields.io/badge/sitio-andres--lopez--g.github.io-0a66c2?style=flat-square&logo=githubpages&logoColor=white)](https://andres-lopez-g.github.io)
+[![Portafolio](https://img.shields.io/badge/Portafolio-andres--lopez--g.github.io-1f3a5f?style=for-the-badge&logo=githubpages&logoColor=white)](https://andres-lopez-g.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andres%20Lopez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andr%C3%A9s-juli%C3%A1n-l%C3%B3pez-gonz%C3%A1lez-101366392)
+[![Email](https://img.shields.io/badge/Email-andresjlopezgo%40hotmail.com-1f3a5f?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:andresjlopezgo@hotmail.com)
 
 </div>
 
 ---
 
-## $ whoami
+Estudiante de **Ingeniería Informática** (8.º semestre) en el Politécnico Colombiano
+"Jaime Isaza Cadavid". He gestionado el área de TI de una empresa de proyectos eléctricos
+y electrónicos y trabajé en soporte técnico bilingüe en Amazon. Hoy mi foco es **cloud**:
+serverless, contenedores y Terraform.
 
-Estudiante de ingeniería y desarrollador. Me interesa entender cómo funcionan las cosas
-desde adentro: programo microcontroladores, implemento algoritmos desde cero, construyo
-herramientas que uso yo mismo y despliego infraestructura real en AWS.
+🔭 **Construyendo** CVFit · 🌱 **Aprendiendo** Terraform y Bedrock · 🤝 **Abierto a** prácticas y roles junior
 
-Últimamente el foco está en **cloud**: serverless, contenedores y todo definido como
-código con Terraform. Cada proyecto es una excusa para aprender una capa nueva.
+## 🚀 Proyectos
 
-- 🔩 **Hardware & IoT** — ESP32, sensores, MicroPython, datos en tiempo real
-- 🧮 **Algoritmos** — estructuras de datos, compresión, bajo nivel en C++
-- ☁️ **Cloud & Infra** — AWS, Terraform, Lambda, ECS Fargate, DynamoDB
-- 🛠️ **Software** — APIs y herramientas en JavaScript / Node.js / Python
-- 🤖 **ML** — visión por computadora, modelos en Python
-
----
-
-## 🚀 Proyectos recientes
-
-### [CVFit](https://github.com/andres-lopez-g/cvfit) · adaptar el CV a una oferta
-
-Pegás tu CV (texto o PDF) y una oferta de trabajo; la app devuelve el CV reescrito con el
-vocabulario de la oferta, un score de match 0–100 con las palabras clave faltantes y un
-tip de entrevista. **No inventa experiencia**: solo reordena hechos que ya están en el CV.
-
-- 100 % serverless: S3 estático → API Gateway → Lambda (Node 22) → **Bedrock / Nova Pro**
-- El PDF viaja en base64 y se pasa a Bedrock como bloque `document` (sirve para escaneados)
-- Costo real por consulta medido con **CloudWatch Embedded Metric Format**, sin base de datos
-- Terraform modular con estado remoto en S3 + locks en DynamoDB
-
-`AWS` · `Terraform` · `Bedrock` · `Lambda` · `API Gateway` · `JavaScript`
-
-### [comp-nube](https://github.com/andres-lopez-g/comp-nube) · miniaturas serverless en AWS
-
-Subís una imagen a un sitio estático en S3 y en menos de un minuto aparece la miniatura:
-S3 → evento → **Lambda** → `ecs:RunTask` → **ECS Fargate** (Pillow) → S3.
-
-- Sin ECS Service: el contenedor **solo existe mientras procesa** y se apaga al terminar
-- La ruta del objeto y el bucket llegan al contenedor por variables de entorno
-- Frontend vanilla sin SDK, buckets públicos por ser un parcial (en producción: privados +
-  URLs firmadas)
-- Todo desplegable y borrable con Terraform, sin pasos manuales
-
-`AWS` · `Terraform` · `ECS Fargate` · `Lambda` · `Docker` · `Python`
-
-### [CarScan](https://github.com/andres-lopez-g/CarScan) · buscador de vehículos en Colombia
-
-Agrega publicaciones de varios marketplaces, normaliza precios, puntúa las mejores ofertas
-y las muestra en un mapa con distancia desde tu ubicación.
-
-- Backend **FastAPI** + **PostgreSQL/PostGIS**, scrapers con Playwright y BeautifulSoup
-- Frontend **Next.js 14** + TypeScript + Leaflet sobre OpenStreetMap
-- Scraping responsable: rate limiting, sin bypass de captchas, siempre enlazando el original
-- Todo levantable con `docker compose up`
-
-`Python` · `FastAPI` · `Next.js` · `PostGIS` · `Docker`
-
----
-
-## 📦 Proyectos anteriores
-
-| Proyecto | Descripción | Stack |
+| Proyecto | Qué hace | Stack |
 |:---|:---|:---|
-| [**AsisT**](https://github.com/andres-lopez-g/AsisT) | Asistente personal: finanzas, archivos y planeación del día | JS / Node.js |
-| [**esp32-meteorologia**](https://github.com/andres-lopez-g/esp32-meteorologia) | Estación meteorológica con ESP32, DHT11, MQ-135, BMP180 y ThingSpeak | MicroPython / IoT |
-| [**huffman-compression**](https://github.com/andres-lopez-g/huffman-compression) | Compresor de archivos con el algoritmo de Huffman, desde cero | C++ |
-| [**ml-face-censor**](https://github.com/andres-lopez-g/ml-face-censor) | Detección y censura automática de rostros en imágenes | Python / ML |
-| [**API-gobierno**](https://github.com/andres-lopez-g/API-gobierno) | Datos abiertos de datos.gov.co → MySQL → API Flask → frontend React | Python / React |
-| [**final-bdd2**](https://github.com/andres-lopez-g/final-bdd2) | Base de datos poliglota: PostgreSQL + Neo4j en el mismo proyecto | Python / SQL |
-| [**torredebabel**](https://github.com/andres-lopez-g/torredebabel) | Juego construido en Python y SQL para taller de lenguajes | Python / SQL |
+| [**CVFit**](https://github.com/andres-lopez-g/cvfit) | Adapta tu CV a una oferta: score de match, keywords faltantes y tip de entrevista. 100 % serverless. | AWS · Lambda · Bedrock · Terraform |
+| [**comp-nube**](https://github.com/andres-lopez-g/comp-nube) | Miniaturas serverless: S3 → Lambda → ECS Fargate → S3, con contenedor efímero. | AWS · ECS · Docker · Terraform |
+| [**CarScan**](https://github.com/andres-lopez-g/CarScan) | Buscador de vehículos con scrapers, PostGIS y mapa interactivo. | FastAPI · Next.js · PostGIS |
+| [**AsisT**](https://github.com/andres-lopez-g/AsisT) | Asistente personal full-stack: finanzas, archivos y planner Kanban. | React · Node.js · PostgreSQL |
+| [**huffman-compression**](https://github.com/andres-lopez-g/huffman-compression) | Compresor de archivos con Huffman desde cero en C++17. | C++17 |
+| [**esp32-meteorologia**](https://github.com/andres-lopez-g/esp32-meteorologia) | Estación meteorológica con ESP32 y ThingSpeak. | ESP32 · MicroPython · IoT |
 
----
+También: [ml-face-censor](https://github.com/andres-lopez-g/ml-face-censor) ·
+[API-gobierno](https://github.com/andres-lopez-g/API-gobierno) ·
+[final-bdd2](https://github.com/andres-lopez-g/final-bdd2) ·
+[torredebabel](https://github.com/andres-lopez-g/torredebabel)
 
-## 🔧 Con qué trabajo
+## 🧰 Stack
 
 <div align="center">
 
-**Lenguajes**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-
-**Cloud & herramientas**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**Hardware & ML**
-
-![ESP32](https://img.shields.io/badge/ESP32-FF6600?style=flat-square)
-![MicroPython](https://img.shields.io/badge/MicroPython-2B5B84?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,go,cpp,nodejs,react,fastapi,flask,postgres,mongodb,aws,docker,terraform,linux,git,tensorflow,opencv&perline=10" alt="JavaScript, TypeScript, Python, Java, Go, C++, Node.js, React, FastAPI, Flask, PostgreSQL, MongoDB, AWS, Docker, Terraform, Linux, Git, TensorFlow y OpenCV" />
 
 </div>
 
----
+También: Neo4j · MicroPython · ESP32 · ThingSpeak · PostGIS
+
+## 🎓 Formación y certificaciones
+
+- **Ingeniería Informática** — Politécnico Colombiano "Jaime Isaza Cadavid" · 8.º semestre
+- Linux Essentials (Cisco) · MongoDB for SQL Professionals · Data Fundamentals (IBM) · Registered Scrum Basics™ · Iniciación al desarrollo con IA (BIG school)
+
+## 📈 Actividad
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=andres-lopez-g&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Racha de contribuciones en GitHub" />
+
+<img src="https://streak-stats.demolab.com?user=andres-lopez-g&theme=github-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Racha de contribuciones en GitHub" height="160" />
+
 </div>
-
----
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=andres-lopez-g&theme=tokyo-night&hide_border=true&area=true" alt="Actividad en GitHub" />
-</div>
-
----
 
 ## 📫 Hablemos
 
-Abierto a colaborar en proyectos de **cloud, backend, IoT o ML** —y a cualquier problema
-que valga la pena resolver.
+Abierto a **prácticas, proyectos freelance y roles junior** en cloud, backend, datos, IoT o ML.
 
-<div align="center">
+[Email](mailto:andresjlopezgo@hotmail.com) · [LinkedIn](https://www.linkedin.com/in/andr%C3%A9s-juli%C3%A1n-l%C3%B3pez-gonz%C3%A1lez-101366392) · [Portafolio](https://andres-lopez-g.github.io)
 
-[![GitHub](https://img.shields.io/badge/github/andres--lopez--g-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andres-lopez-g)
-[![Sitio](https://img.shields.io/badge/sitio-web-0a66c2?style=for-the-badge&logo=githubpages&logoColor=white)](https://andres-lopez-g.github.io)
-
-</div>
+<sub>English B2+ · Open to internships and junior roles in cloud, backend, data, IoT or ML.</sub>
